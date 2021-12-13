@@ -1,0 +1,51 @@
+$blancotexto: #ffffff;
+
+
+main {
+    margin-top: 5px;
+    height: 100%;
+
+
+    .historia2{
+        margin-bottom: 100px;
+        width: 80%;
+        height: auto;
+        background-color: $blanco;
+        color: $blancotexto;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+.Regnum {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #ffffff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.capituloUno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #ffffff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.parrafoUno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

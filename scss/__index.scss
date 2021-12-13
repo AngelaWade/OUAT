@@ -1,0 +1,113 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(imagenes/fondo.png);
+    width: 100%;
+ }
+
+.encabezado {
+    height: 100px;
+    background-color: #000;
+    border-bottom: solid 4px $violeta;
+    color: $blancotexto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+header {
+    border-bottom: solid 4px $violeta;
+    background-color: $vioclaro;
+}
+
+
+
+ nav {
+     a {
+    color: $blanco;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+}
+
+ .dropdown-menu {
+     background-color: $lila;
+     color: $blanco;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+    .iniciarSesion {
+        border-radius: 5px;
+}
+
+ 
+
+.submitInicioSesion{
+    background-color: $violeta;
+    color: $blancotexto;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-left: 0px;
+}
+
+.mainIndex {
+    .titulo2 {
+        margin-top: 25px;
+        color: $violeta;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+.articleIndex {
+    background-color: $negro;
+    width: 100%;
+    border-radius: 70px;
+
+    .presentacion {
+        font-family: Arial, Helvetica, sans-serif;
+        color: $blancotexto;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+        padding: 8px;
+    }
+}
+}
+
+.imagenes {
+    .maga1 {
+        height: 500px;
+        width: 400px;
+        border-radius: 20px;
+        margin-right: 50px;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    .maga2 {
+        height: 500px;
+        width: 400px;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+}
+
+
+
+footer {
+    font-size: 10px;
+    margin-top: 30px;
+    text-align: start;
+    background-color: #000;
+    color: $blancotexto;
+    position: bottom;
+    width: 100%;
+    padding: 5px;
+}

@@ -1,0 +1,51 @@
+$viofuerte: #21007c;
+
+.titulo {
+    background-color: $viofuerte;
+    color: $blancotexto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.articleHistorias {
+    margin-top: 30px;
+    background-color: $negro;
+    height: auto;
+    width: 100%;
+}
+
+.historia1 {
+    background-color: $viofuerte;
+    height: fit-content;
+    padding: 15px;
+    margin-left: 50px;
+    border: solid 2px $viofuerte;
+    .btn {
+        background-color: $violeta;
+}
+.card-title {
+    color: $negro;
+}
+.card-text {
+    color: $negro;
+}
+}
+
+.historia2 {
+    background-color: $viofuerte;
+    height: fit-content;
+    padding: 15px;
+    border: solid 2px $viofuerte;
+
+    .btn {
+        background-color: $violeta;
+    }
+    .card-title {
+        color: $negro;
+    }
+    .card-text {
+        color: $negro;
+    }
+}

@@ -1,0 +1,35 @@
+
+$blancotexto: #ffffff;
+
+
+main {
+    margin-top: 5px;
+    height: 100%;
+    ul {
+        margin-right: 15px;
+    }
+    .sobrenosotros{
+        margin-bottom: 100px;
+    }
+}
+
+.sobrenosotros {
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    .sn-titulo{
+        color: $blancotexto;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+.texto {
+    color: $blancotexto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
