@@ -137,16 +137,14 @@ main {
   font-size: 16px;
   margin: 10px;
   padding: 5px;
-  border-radius: 5px;
-  color: #ffffff38; }
+  border-radius: 5px; }
 
 .correoElectronico {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 10px;
   padding: 5px;
-  border-radius: 5px;
-  color: #ffffff38; }
+  border-radius: 5px; }
 
 .mensaje {
   font-family: Arial, Helvetica, sans-serif;
@@ -155,8 +153,7 @@ main {
   padding: 5px;
   width: 300px;
   height: 200px;
-  border-radius: 5px;
-  color: #ffffff38; }
+  border-radius: 5px; }
 
 .contactoEnviar {
   background-color: #1c003b;
