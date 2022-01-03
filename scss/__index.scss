@@ -5,10 +5,9 @@
     padding: 0px;
 }
 
-body {
-    background-image: url(imagenes/fondo.png);
-    width: 100%;
- }
+body{
+    background-color: $fondo;
+}
 
 .encabezado {
     height: 100px;
@@ -21,14 +20,13 @@ body {
 
 header {
     border-bottom: solid 4px $violeta;
-    background-color: $vioclaro;
+    background-color: $lila;
 }
 
 
 
  nav {
      a {
-    color: $blanco;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
 }
@@ -41,6 +39,8 @@ header {
 
     .iniciarSesion {
         border-radius: 5px;
+        width: 100px;
+        background-color: $blanco;
 }
 
  
@@ -56,23 +56,43 @@ header {
     margin-left: 0px;
 }
 
+
 .mainIndex {
     .titulo2 {
         margin-top: 25px;
         color: $violeta;
-        font-size: 45px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        font-family:  'Merriweather Sans', sans-serif;
         font-weight: bold;
     }
 .articleIndex {
-    width: 70%;
+    width: 60%;
     margin-bottom: 20px;
 
-    .presentacion {
-        font-family: Arial, Helvetica, sans-serif;
+    .presentacion1 {
+        font-family:  'Merriweather Sans', sans-serif;
         color: $negro;
-        font-size: 25px;
+        font-size: 30px;
         margin-top: 70px;
+        padding: 8px;
+
+    }
+
+    .presentacion2 {
+        font-family:  'Merriweather Sans', sans-serif;
+        color: $gris;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 8px;
+
+    }
+
+    .presentacion3 {
+        font-family:  'Merriweather Sans', sans-serif;
+        color: $gris;
+        font-size: 25px;
+        margin-top: 10px;
         margin-bottom: 70px;
         padding: 8px;
 

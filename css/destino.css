@@ -4,8 +4,7 @@
   padding: 0px; }
 
 body {
-  background-image: url(imagenes/fondo.png);
-  width: 100%; }
+  background-color: #f1e3f8; }
 
 .encabezado {
   height: 100px;
@@ -16,10 +15,9 @@ body {
 
 header {
   border-bottom: solid 4px #3508da;
-  background-color: #bfaeff; }
+  background-color: #ccc0f7; }
 
 nav a {
-  color: #f9f9fa;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 .dropdown-menu {
@@ -28,7 +26,9 @@ nav a {
   font-family: Arial, Helvetica, sans-serif; }
 
 .iniciarSesion {
-  border-radius: 5px; }
+  border-radius: 5px;
+  width: 100px;
+  background-color: #f9f9fa; }
 
 .submitInicioSesion {
   background-color: #3508da;
@@ -42,18 +42,31 @@ nav a {
 .mainIndex .titulo2 {
   margin-top: 25px;
   color: #3508da;
-  font-size: 45px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-family: 'Merriweather Sans', sans-serif;
   font-weight: bold; }
 
 .mainIndex .articleIndex {
-  width: 70%;
+  width: 60%;
   margin-bottom: 20px; }
-  .mainIndex .articleIndex .presentacion {
-    font-family: Arial, Helvetica, sans-serif;
+  .mainIndex .articleIndex .presentacion1 {
+    font-family: 'Merriweather Sans', sans-serif;
     color: #000000;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 70px;
+    padding: 8px; }
+  .mainIndex .articleIndex .presentacion2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #494947;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px; }
+  .mainIndex .articleIndex .presentacion3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #494947;
+    font-size: 25px;
+    margin-top: 10px;
     margin-bottom: 70px;
     padding: 8px; }
 
