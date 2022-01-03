@@ -42,22 +42,30 @@ nav a {
 .mainIndex .titulo2 {
   margin-top: 25px;
   color: #3508da;
-  font-size: 40px;
+  font-size: 45px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold; }
 
 .mainIndex .articleIndex {
-  background-color: #000000;
-  width: 100%;
-  border-radius: 70px; }
+  width: 70%;
+  margin-bottom: 20px; }
   .mainIndex .articleIndex .presentacion {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     padding: 8px; }
+
+.registrarse {
+  margin-bottom: 50px;
+  font-size: 40px;
+  height: 230px;
+  width: auto;
+  border-radius: 300px;
+  background-color: #3508da;
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 .imagenes .maga1 {
   height: 500px;

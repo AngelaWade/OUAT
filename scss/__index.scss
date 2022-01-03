@@ -60,25 +60,35 @@ header {
     .titulo2 {
         margin-top: 25px;
         color: $violeta;
-        font-size: 40px;
+        font-size: 45px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
     }
 .articleIndex {
-    background-color: $negro;
-    width: 100%;
-    border-radius: 70px;
+    width: 70%;
+    margin-bottom: 20px;
 
     .presentacion {
         font-family: Arial, Helvetica, sans-serif;
-        color: $blancotexto;
-        font-size: 20px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        text-align: center;
+        color: $negro;
+        font-size: 25px;
+        margin-top: 70px;
+        margin-bottom: 70px;
         padding: 8px;
+
     }
 }
+}
+
+.registrarse {
+    margin-bottom: 50px;
+    font-size: 40px;
+    height: 230px;
+    width: auto;
+    border-radius: 300px;
+    background-color: $violeta;
+    color: $blancotexto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .imagenes {
