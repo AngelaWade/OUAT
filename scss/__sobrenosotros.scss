@@ -14,22 +14,39 @@ main {
 }
 
 .sobrenosotros {
-    height: 400px;
+    height: auto;
     background-color: rgb(0, 0, 0);
     .sn-titulo{
         color: $blancotexto;
-        font-size: 30px;
+        font-size: 40px;
+        font-family: 'Merriweather Sans', sans-serif;
         text-align: center;
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
+        margin-top: 15px;
+    }
+    .leer {
+        margin-bottom: 50px;
+        font-size: 40px;
+        height: auto;
+        width: auto;
+        border-radius: 300px;
+        background-color: $violeta;
+        a{
+            text-decoration: none;
+            color: $blancotexto;
+            font-family: 'Merriweather Sans', sans-serif;
+
+        }
     }
 }
 
 .texto {
+    font-size: 25px;
     color: $blancotexto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }

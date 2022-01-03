@@ -114,22 +114,36 @@ main {
     margin-bottom: 100px; }
 
 .sobrenosotros {
-  height: 400px;
+  height: auto;
   background-color: black; }
   .sobrenosotros .sn-titulo {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
     width: 100%;
-    margin-bottom: 15px; }
+    margin-bottom: 25px;
+    margin-top: 15px; }
+  .sobrenosotros .leer {
+    margin-bottom: 50px;
+    font-size: 40px;
+    height: auto;
+    width: auto;
+    border-radius: 300px;
+    background-color: #3508da; }
+    .sobrenosotros .leer a {
+      text-decoration: none;
+      color: #ffffff;
+      font-family: 'Merriweather Sans', sans-serif; }
 
 .texto {
+  font-size: 25px;
   color: #ffffff;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: left;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: 'Merriweather Sans', sans-serif; }
 
 main {
   margin-top: 5px;
