@@ -3,17 +3,13 @@ $blancotexto: #ffffff;
 
 
 main {
-    margin-top: 5px;
-    height: 100%;
+
     ul {
         margin-right: 15px;
     }
     .articleContacto{
-        width: auto;
-        margin-left: 50px;
-        margin-right: 10px;
+        width: 100%;
         margin-top: 30px;
-        margin-bottom: 50px;
         margin-bottom: 100px;
     }
     .imagenContacto {
@@ -27,40 +23,45 @@ main {
 .contacto {
     height: 400px;
     background-color: rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
 .nombreYApellido {
+    color: $grisclaro;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 10px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .correoElectronico {
+    color: $grisclaro;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 10px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .mensaje {
+    color: $grisclaro;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 10px;
     padding: 5px;
     width: 300px;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
 .contactoEnviar {
-    background-color: #1c003b;
+    background-color:$violeta;
     font-size: 15px;
     text-transform: uppercase;
     font-family: fantasy;
-    color: #d4b7f1;
+    color: $blancotexto;
     border-radius: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
