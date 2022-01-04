@@ -19,21 +19,15 @@ main {
 
 
 .fuckLife {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
     background-color: #ffffff;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .capituloUno {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    text-align: center;
     background-color: #ffffff;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,10 +35,7 @@ main {
 }
 
 .parrafoUno {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    text-align: left;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }

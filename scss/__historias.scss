@@ -1,12 +1,4 @@
-$viofuerte: #21007c;
 
-.titulo {
-    background-color: $viofuerte;
-    color: $blancotexto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 100%;
-    height: fit-content;
-}
 
 
 .articleHistorias {
@@ -38,6 +30,7 @@ $viofuerte: #21007c;
     height: fit-content;
     padding: 15px;
     border: solid 2px $viofuerte;
+    margin-right: 50px;
 
     .btn {
         background-color: $violeta;

@@ -264,13 +264,6 @@ main .imagenContacto {
   padding: 5px;
   margin-left: 10px; }
 
-.titulo {
-  background-color: #21007c;
-  color: #ffffff;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  width: 100%;
-  height: fit-content; }
-
 .articleHistorias {
   margin-top: 30px;
   background-color: #000000;
@@ -294,7 +287,8 @@ main .imagenContacto {
   background-color: #21007c;
   height: fit-content;
   padding: 15px;
-  border: solid 2px #21007c; }
+  border: solid 2px #21007c;
+  margin-right: 50px; }
   .historia2 .btn {
     background-color: #3508da; }
   .historia2 .card-title {
@@ -314,30 +308,21 @@ main {
     margin-top: 50px; }
 
 .fuckLife {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
   background-color: #ffffff;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 .capituloUno {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+  text-align: center;
   background-color: #ffffff;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase; }
 
 .parrafoUno {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+  text-align: left;
   color: black;
   font-family: Arial, Helvetica, sans-serif; }
 
@@ -353,29 +338,14 @@ main {
     margin-top: 50px; }
 
 .Regnum {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
   background-color: #ffffff;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
-.capituloUno {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  background-color: #ffffff;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase; }
-
-.parrafoUno {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif; }
+.paginas {
+  background-color: #21007c; }
+  .paginas a {
+    text-decoration: none;
+    color: #f9f9fa; }
