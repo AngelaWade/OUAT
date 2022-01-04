@@ -172,7 +172,8 @@ main .imagenContacto {
 .contacto {
   height: 400px;
   background-color: black;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin-right: 50px; }
 
 .nombreYApellido {
   color: #6e6d6e;
