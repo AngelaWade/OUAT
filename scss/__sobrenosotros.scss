@@ -16,6 +16,23 @@ main {
 .sobrenosotros {
     height: auto;
     background-color: rgb(0, 0, 0);
+    .nosotros1 {
+        height: 400px;
+        width: 400px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+
+    }
+    .nosotros2 {
+        height: 400px;
+        width: 400px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-left: 100px;
+
+    }
     .sn-titulo{
         color: $blancotexto;
         font-size: 40px;
@@ -50,3 +67,4 @@ main {
     justify-content: left;
     font-family: 'Merriweather Sans', sans-serif;
 }
+

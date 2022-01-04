@@ -126,6 +126,19 @@ main {
 .sobrenosotros {
   height: auto;
   background-color: black; }
+  .sobrenosotros .nosotros1 {
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    margin-bottom: 30px; }
+  .sobrenosotros .nosotros2 {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-left: 100px; }
   .sobrenosotros .sn-titulo {
     color: #ffffff;
     font-size: 40px;
