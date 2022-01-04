@@ -133,9 +133,25 @@ header {
 
 
 footer {
-    font-size: 10px;
+    h3{
+        font-size: 15px;
+        text-align: center;
+
+    }
+    .linkedin{
+        margin-right: 20px;
+        margin-bottom: 20px;
+
+    }
+    .instagram {
+        margin-right: 20px;
+        margin-bottom: 20px;
+
+    }
+    .facebook{
+        margin-bottom: 20px;
+    }
     margin-top: 30px;
-    text-align: start;
     background-color: #000;
     color: $blancotexto;
     position: bottom;
