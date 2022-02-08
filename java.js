@@ -1,5 +1,5 @@
-let correoElectronico = 'desafio1@desafio1';
-let email = prompt ('Ingresar dirección de correo electrónico');
+//let correoElectronico = 'desafio1@desafio1';
+let email = "" + "@" + "";
 let contraseña = prompt ('Ingresar contraseña');
 let nombreYapellido = prompt ('Ingresar nombre y apellido');
 let correoCorreo = prompt('Ingresar correo electrónico');
@@ -31,11 +31,10 @@ if (contraseña == "") {
     alert("No ingresaste contraseña ");
 }
 
-while( email != correoElectronico) {
-    alert("Dirección de correo electrónico incorrecta");
-    email = prompt ('Ingresar otro dato');
-
-}
+//while( email != correoElectronico) {
+//    alert("Dirección de correo electrónico incorrecta");
+//    email = prompt ('Ingresar otro dato');
+//}
 
 
 
@@ -54,3 +53,9 @@ console.log (regnum[5] + capitulos[5]);
 
 console.log(regnum.length);
 console.log(capitulos.length);
+
+
+document.getElementById("c-elect").style.backgroundColor= "#000000";
+document.getElementById("contra").style.backgroundColor= "#000000";
+
+setTimeout(() => {}, 2000);
