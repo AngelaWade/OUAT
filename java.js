@@ -26,7 +26,17 @@ console.log(capitulos.length);
 document.getElementById("c-elect").style.backgroundColor= "#000000";
 document.getElementById("contra").style.backgroundColor= "#000000";
 
-setTimeout(() => {}, 2000);
+
+
+setTimeout(() => {
+
+    let nombre = document.getElementById("nombre").value;
+    let apellido = document.getElementById("apellido").value;
+
+    document.getElementById("nombreYApellido").innerHTML.value = nombre + " " + apellido;
+
+
+}, 2000);
 
 //EVENTOS
 
