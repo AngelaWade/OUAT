@@ -1,56 +1,58 @@
-//let correoElectronico = 'desafio1@desafio1';
-//let email = "" + "@" + "";
-//let contraseña = prompt ('Ingresar contraseña');
-//let nombreYapellido = prompt ('Ingresar nombre y apellido');
-//let correoCorreo = prompt('Ingresar correo electrónico');
-//let mensaje = prompt ('Ingresar mensaje');
+
+//roles
+//admin=1
+//usuario=2
 
 
 
-//ARRAYS
-const regnum = [1, 2, 3, 4, 5, 6];
-const capitulos = ['Capítulo 1', 'Capítulo 2', 'Capítulo 3', 'Capítulo 4', 'Capítulo 5', 'Capítulo 6'];
 
+function obtenerListaDeUsuarios (){
 
-console.log (regnum[0] + capitulos[0]);
-console.log (regnum[1] + capitulos[1]);
-console.log (regnum[2] + capitulos[2]);
-console.log (regnum[3] + capitulos[3]);
-console.log (regnum[4] + capitulos[4]);
-console.log (regnum[5] + capitulos[5]);
+    var listaDeUsuarios = JSON.parse(localStorage.getItem("usuarios"));
 
-console.log(regnum.length);
-console.log(capitulos.length);
+if (listaDeUsuarios == null){
+    listaDeUsuarios=
+    [
+//       id   nombre   correo    contraseña apell  fechaNac    rol
+        ['1','Angela','admin@admin','1234','Wade','21/04/1995','1']
+        ['2','Usuario','user@user','4321','Primero','22/02/1992','2']
+        
 
+        ]
 
-document.getElementById("c-elect").style.backgroundColor= "#000000";
-document.getElementById("contra").style.backgroundColor= "#000000";
+}
+return listaDeUsuarios;
 
-
-
-setTimeout(() => {
-
-    let nombre = document.getElementById("nombre").value;
-    let apellido = document.getElementById("apellido").value;
-
-    document.getElementById("nombreYApellido").innerHTML.value = nombre + " " + apellido;
-
-
-}, 2000);
-
-//EVENTOS
-
-
-let inicioSesion = document.getElementById("Inicio-sesion");
-inicioSesion.addEventListener("submit", validarFormulario)
-
-function validarFormulario(e){
-    e.preventDefault();
-    console.log("Enviar")
 }
 
-let email = document.getElementById("c-elect");
-email.onkeydown = () => {console.log ("ingresar correo electronico")}
+function validarCredenciales (correo, contraseña){
 
-let contraseña = document.getElementById("contra");
-contraseña.onkeydown = () => {console.log ("ingresar contraseña")}
+    var listaDeUsuarios = obtenerListaDeUsuarios();
+    var acceso = false;
+
+    for (var i = 0; i < listaDeUsuarios.length; i++){
+        if (correo == listaDeUsuarios[i][2] && contraseña == listaDeUsuarios[i][3]){
+            acceso= true;
+            sessionStorage.setItem('usuarioActivo', listaDeUsuarios[i][1] + ' ' + listaDeUsuarios[i][4]);
+            sessionStorage.setItem('rolUsuarioActivo', listaDeUsuarios[i][6]);
+        } 
+        return acceso;
+    
+    }
+    }
+
+//INICIO SESION
+
+    document.querySelector('#btniniciar').addEventListener('click', inicioSesion);
+
+    function inicioSesion(){
+        var eCorreo = '';
+        var eContraseña = '';
+        var acceso = false;
+
+        eCorreo = document.querySelector("#c-elect").value;
+        eContraseña = document.querySelector("#contra").value;
+
+        acceso = validarCredenciales(eCorreo, eContraseña);
+        console.log(acceso);
+    }
