@@ -4,7 +4,7 @@
 //usuario=2
 
 
-
+/*
 
 function obtenerListaDeUsuarios (){
 
@@ -56,3 +56,41 @@ function validarCredenciales (correo, contraseña){
         acceso = validarCredenciales(eCorreo, eContraseña);
         console.log(acceso);
     }
+    */
+
+
+    class usuario {
+        constructor(correo, contraseña){
+
+        this.correo= correo;
+        this.contraseña= contraseña;
+
+    }
+}
+
+    const usuario1 = new usuario ("admin@admin", "1234");
+    const usuario2 = new usuario ("user@user", "4321");
+
+    const arrayA = []
+    arrayA.push(usuario1)
+    arrayA.push(usuario2)
+
+    localStorage.setItem("usuario", JSON.stringify(arrayA));
+
+
+let botonenviar = document.getElementById("btniniciar")
+botonenviar.addEventListener("click",inicioSesion);
+    function inicioSesion(){
+        var email = document.getElementById("cElect").value;
+        var contra = document.getElementById("contra").value;
+        for (let i=0; i < arrayA.length; i++){
+            if ((email == arrayA[i].correo) && (contra == arrayA[i].contraseña)){
+                alert('ha ingresado correctamente ' + arrayA[i].correo)
+                break;
+            }
+            else{
+                alert('Ingrese un usuario válido');
+            }
+        }
+    }
+
