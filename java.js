@@ -85,12 +85,25 @@ botonenviar.addEventListener("click",inicioSesion);
         var contra = document.getElementById("contra").value;
         for (let i=0; i < arrayA.length; i++){
             if ((email == arrayA[i].correo) && (contra == arrayA[i].contraseña)){
-                alert('ha ingresado correctamente ' + arrayA[i].correo)
-                break;
+            return iniciar();
+                //                alert('ha ingresado correctamente ' + arrayA[i].correo)
+                //break;
             }
             else{
-                alert('Ingrese un usuario válido');
+            return error();
+                //                alert('Ingrese un usuario válido');
             }
         }
     }
 
+function iniciar(){
+    swal({
+        icon: "success",
+      });
+}
+
+function error(){
+    swal("Usuario y/o contraseña incorrecto", {
+        buttons: false,
+      });
+}
